@@ -17,6 +17,7 @@ function donate() {
 <template>
   <UButton
     :loading="loading"
+    icon="i-fluent-emoji-high-contrast:bagel"
     @click="donate"
   >
     Donate a Bagel

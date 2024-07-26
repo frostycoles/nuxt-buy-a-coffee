@@ -39,6 +39,7 @@
     "stripe": "^16.5.0"
   },
   "devDependencies": {
+    "@iconify-json/fluent-emoji-high-contrast": "^1.1.15",
     "@nuxt/devtools": "latest",
     "@nuxt/eslint-config": "^0.3.13",
     "@nuxt/module-builder": "^0.7.1",
