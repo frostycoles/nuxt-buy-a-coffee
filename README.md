@@ -1,11 +1,15 @@
 # Nuxt Auth Utils
 
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![License][license-src]][license-href]
-[![Nuxt][nuxt-src]][nuxt-href]
-
 Add a `Donate a Bagel` button to your app!
+
+Let's be honest. Sometimes, you don't need more coffee. You just want a perfectly toasted bagel, spread with beautifully creamy cheese, and maybe some smoked salmon, capers, and a pickle slice.
+
+That's where we come in. This is a Nuxt module for those who care about their bagel dreams. This module gives you a button that you can use in your Nuxt app so other people know that you care too.
+
+It's simple:
+1. You put this button on your website
+2. People click this button and send money directly to your Stripe account
+3. You buy bagels
 
 - [Release Notes](/CHANGELOG.md)
 
