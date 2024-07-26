@@ -9,6 +9,47 @@
     </header>
     <UContainer class="bg-white max-w-[960px] w-full flex-grow p-4 pt-8">
       <NuxtPage />
+      <div class="mt-8 flex gap-8">
+        <ULink
+          to="https://github.com/frostycoles/nuxt-donate-a-bagel"
+          target="_blank"
+          active-class="text-black"
+          inactive-class="text-green-500"
+          class="flex items-center"
+        >
+          <UIcon
+            name="i-simple-icons:github"
+            class="mr-2"
+          />
+          Github
+        </ULink>
+        <ULink
+          to="https://www.npmjs.com/package/nuxt-donate-a-bagel"
+          target="_blank"
+          active-class="text-black"
+          inactive-class="text-green-500"
+          class="flex items-center"
+        >
+          <UIcon
+            name="i-simple-icons:npm"
+            class="mr-2"
+          />
+          NPM
+        </ULink>
+        <ULink
+          to="https://github.com/frostycoles/nuxt-donate-a-bagel/blob/main/CHANGELOG.md"
+          target="_blank"
+          active-class="text-black"
+          inactive-class="text-green-500"
+          class="flex items-center"
+        >
+          <UIcon
+            name="i-heroicons-command-line"
+            class="mr-2"
+          />
+          Changelog
+        </ULink>
+      </div>
     </UContainer>
   </div>
 </template>

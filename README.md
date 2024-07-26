@@ -1,4 +1,4 @@
-# Nuxt Auth Utils
+# Nuxt Donate a Bagel
 
 Add a `Donate a Bagel` button to your app!
 
