@@ -5,7 +5,7 @@
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-Add a `Donate a Bagel` button to ypur app!
+Add a `Donate a Bagel` button to your app!
 
 - [Release Notes](/CHANGELOG.md)
 
@@ -29,6 +29,7 @@ export default defineNuxtConfig({
     }
   }
 })
+```
 
 They can also be set using environment variables:
 
