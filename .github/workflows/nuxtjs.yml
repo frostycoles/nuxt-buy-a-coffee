@@ -91,4 +91,3 @@ jobs:
         uses: actions/deploy-pages@v4
       - name: Run process
         run: ls
-        run: node server/index.mjs
