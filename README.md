@@ -27,7 +27,7 @@ npx nuxi@latest module add nuxt-donate-a-bagel
 export default defineNuxtConfig({
   runtimeConfig: {
     bagel: {
-      stripeKey: 'your_stripe_key',
+      stripeKey: 'your_stripe_key', // Be sure to keep this in a secure place (like a .env file), NOT in source code
       host: 'https://your_website.com'
       successUrl: '' // Url to redirect to after payment, e.g. https://your_website.com/thankyou
     }
@@ -38,6 +38,7 @@ export default defineNuxtConfig({
 They can also be set using environment variables:
 
 - `NUXT_BAGEL_STRIPE_KEY`
+- `NUXT_BAGEL_HOST`
 - `NUXT_BAGEL_SUCCESS_URL`
 
 3. That's it! You can now add the `<DonateABagel>` component to your Nuxt app ✨
