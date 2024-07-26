@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full min-h-[100vh] bg-slate-50 m-0 fex flex-col">
+  <div class="w-full min-h-[100vh] m-0 fex flex-col">
     <header class="bg-white w-full relative flex items-center text-lg h-16 px-8 shadow-md">
       <UIcon
         name="i-fluent-emoji-high-contrast:bagel"
