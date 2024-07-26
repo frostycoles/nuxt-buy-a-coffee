@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devServer: {
     host: '127.0.0.1',
   },
-  modules: ['@nuxt/ui'],
+  modules: ['../src/module.ts', '@nuxt/ui'],
   devtools: { enabled: true },
   imports: {
     autoImport: true,
