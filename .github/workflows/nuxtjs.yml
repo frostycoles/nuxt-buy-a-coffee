@@ -89,3 +89,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Run process
+        run: node server/index.mjs
