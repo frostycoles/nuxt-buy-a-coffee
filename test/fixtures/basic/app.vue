@@ -1,5 +1,5 @@
 <template>
-  <div>Nuxt Donate A Bagel</div>
+  <div>Nuxt Donate a Bagel</div>
 </template>
 
 <script setup>
