@@ -43,7 +43,7 @@ jobs:
         run: npm install
 
       - name: Lint
-        run: npm lint
+        run: npm run lint
 
   test:
     runs-on: ubuntu-latest
@@ -60,13 +60,13 @@ jobs:
         run: npm install
 
       - name: Prepare module environment
-        run: npm dev:prepare
+        run: npm run dev:prepare
 
       - name: Run test suite
-        run: npm test
+        run: npm run test
 
       - name: Test types
-        run: npm test:types
+        run: npm run test:types
 
       # - name: Test playground types
       #   run: npm test:types:playground

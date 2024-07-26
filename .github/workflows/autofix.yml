@@ -18,12 +18,12 @@ jobs:
       - uses: actions/setup-node@8f152de45cc393bb48ce5d89d36b731f54556e65 # v4.0.0
         with:
           node-version: 20
-          cache: "pnpm"
+          cache: "npm"
 
       - name: Install dependencies
-        run: pnpm install
+        run: npm install
 
       - name: Lint (code)
-        run: pnpm lint:fix
+        run: npm run lint:fix
 
       - uses: autofix-ci/action@d3e591514b99d0fca6779455ff8338516663f7cc
