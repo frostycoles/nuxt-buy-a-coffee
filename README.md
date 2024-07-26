@@ -1,11 +1,15 @@
-# Nuxt Auth Utils
-
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![License][license-src]][license-href]
-[![Nuxt][nuxt-src]][nuxt-href]
+# Nuxt Donate a Bagel
 
 Add a `Donate a Bagel` button to your app!
+
+Let's be honest. Sometimes you don't need more coffee. You just want a perfectly toasted bagel, spread with beautifully creamy cheese, and maybe some smoked salmon, capers, and a pickle slice.
+
+That's where we come in. This is a Nuxt module for those who care about their bagel dreams. This module gives you a button that you can use in your Nuxt app so other people know that you care too.
+
+It's simple:
+1. You put this button on your website
+2. People click this button and send money directly to your Stripe account
+3. You buy bagels
 
 - [Release Notes](/CHANGELOG.md)
 
@@ -23,7 +27,7 @@ npx nuxi@latest module add nuxt-donate-a-bagel
 export default defineNuxtConfig({
   runtimeConfig: {
     bagel: {
-      stripeKey: 'your_stripe_key',
+      stripeKey: 'your_stripe_key', // Be sure to keep this in a secure place (like a .env file), NOT in source code
       host: 'https://your_website.com'
       successUrl: '' // Url to redirect to after payment, e.g. https://your_website.com/thankyou
     }
@@ -34,6 +38,7 @@ export default defineNuxtConfig({
 They can also be set using environment variables:
 
 - `NUXT_BAGEL_STRIPE_KEY`
+- `NUXT_BAGEL_HOST`
 - `NUXT_BAGEL_SUCCESS_URL`
 
 3. That's it! You can now add the `<DonateABagel>` component to your Nuxt app ✨
