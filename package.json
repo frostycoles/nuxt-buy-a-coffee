@@ -40,6 +40,8 @@
   },
   "devDependencies": {
     "@iconify-json/fluent-emoji-high-contrast": "^1.1.15",
+    "@iconify-json/heroicons": "^1.1.23",
+    "@iconify-json/simple-icons": "^1.1.111",
     "@nuxt/devtools": "latest",
     "@nuxt/eslint-config": "^0.3.13",
     "@nuxt/module-builder": "^0.7.1",
