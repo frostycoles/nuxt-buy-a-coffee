@@ -21,17 +21,15 @@ It's simple:
 npx nuxi@latest module add nuxt-donate-a-bagel
 ```
 
-2. Add a the config settings in the `runtimeConfig` in your `nuxt.config.ts`:
+2. Add these config settings in your `nuxt.config.ts`:
 
 ```ts
 export default defineNuxtConfig({
-  runtimeConfig: {
     bagel: {
       stripeKey: 'your_stripe_key', // Be sure to keep this in a secure place (like a .env file), NOT in source code
       host: 'https://your_website.com'
       successUrl: '' // Url to redirect to after payment, e.g. https://your_website.com/thankyou
     }
-  }
 })
 ```
 
