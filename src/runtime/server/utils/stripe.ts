@@ -13,10 +13,6 @@ export function donateABagel() {
   if (!stripeKey) {
     throw new Error('🥯 Bagel: No Stripe API Key')
   }
-  console.log('frostycoles', {
-    cancel_url: host,
-    success_url: `${host}/${successUrl}`,
-  })
   return stripe.checkout.sessions.create({
     line_items: [{
       price_data: {
